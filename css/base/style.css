@@ -2,3 +2,7 @@
     padding-left: calc((100% - 1000px)/2);
     padding-right: calc((100% - 1000px)/2);
 }
+
+body{
+    background: #286f93;
+}

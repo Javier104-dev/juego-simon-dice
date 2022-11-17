@@ -1,4 +1,4 @@
-.cuadros{
+.tablero{
     display: grid;
     width: 100%;
     box-sizing: border-box;
@@ -6,9 +6,16 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 250px 250px;
     gap: 1rem;
-
     grid-template-areas: "cuadro1 cuadro2"
                          "cuadro3 cuadro4";
+}
+
+.cuadro{
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 2rem;
+    opacity: 0.5;
+    transition: opacity 500ms;
 }
 
 .cuadro:nth-child(1){

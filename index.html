@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/base/style.css">
     <link rel="stylesheet" href="css/titulo-juego/titulo-juego.css">
     <link rel="stylesheet" href="css/cuerpo-juego/cuadros.css">
+    <link rel="stylesheet" href="css/menu-juego/menu-juego.css">
 </head>
 <body>
     <main>
@@ -17,7 +18,22 @@
             <h1 class="titulo__juego">Juego Simin dice, r/Argentina programa!</h1>
         </header>
         <section class="container">
-            <div class="cuadros">
+            <div class="menu-juego">
+                <div>
+                    <span>Mensaje</span>
+                </div>
+                <div>
+                    <span>
+                        Ronda #0
+                    </span>
+                </div>
+                <div>
+                    <button class="menu-juego__boton" data-boton>Comenzar Juego</button>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="tablero">
                 <div class="cuadro">A</div>
 
                 <div class="cuadro">B</div>
@@ -28,5 +44,6 @@
             </div>
         </section>
     </main>
+    <script src="js/simon-dice.js"></script>
 </body>
 </html>

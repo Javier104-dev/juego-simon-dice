@@ -1,0 +1,10 @@
+.menu-juego{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.menu-juego__boton{
+    padding: 1rem 2rem;
+}
