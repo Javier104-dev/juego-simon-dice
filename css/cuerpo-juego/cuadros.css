@@ -1,0 +1,49 @@
+.cuadros{
+    display: grid;
+    width: 100%;
+    box-sizing: border-box;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px 250px;
+    gap: 1rem;
+
+    grid-template-areas: "cuadro1 cuadro2"
+                         "cuadro3 cuadro4";
+}
+
+.cuadro:nth-child(1){
+    grid-area: cuadro1;
+    /*
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    */
+    background: red;
+}
+
+.cuadro:nth-child(2){
+    grid-area: cuadro2;
+    /*  
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    */
+
+    background: blue;
+}
+
+.cuadro:nth-child(3){
+    grid-area: cuadro3;
+    /*
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    */
+    background: yellow;
+}
+
+.cuadro:nth-child(4){
+    grid-area: cuadro4;
+    /*
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    */
+    background: green;
+}
