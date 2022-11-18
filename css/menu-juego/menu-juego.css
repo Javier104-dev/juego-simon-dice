@@ -4,22 +4,22 @@
     margin: 3rem 0;
 }
 
-.menu-juego__boton{
-    padding: 1rem 2rem;
-    width: 100%;
-    max-width: 100%;
-}
-
-.menu__ronda{
-    font-size: 2rem;
-}
-
 .menu__mensaje{
     padding: 2rem 1rem;
     border-radius: 0px 20px 0px 20px;
     width: 100%;
     text-align: center;
     font-size: 1.3rem;
+}
+
+.menu__ronda{
+    font-size: 2rem;
+}
+
+.menu-juego__boton{
+    padding: 1rem 2rem;
+    width: 100%;
+    max-width: 100%;
 }
 
 .menu__div{
@@ -34,4 +34,32 @@
 
 .perdio{
     background: red;
+}
+
+@media screen and (max-width: 768px){
+    .menu-juego{
+        flex-direction: column;
+        align-items: initial;
+        gap: 1rem;
+    }
+
+    .menu__div{
+        width: auto;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    .menu__mensaje{
+        padding: 0.8rem;
+        border-radius: 10px;
+    }
+
+    .menu__ronda{
+        font-size: 1.1rem;
+    }
+
+    .menu-juego__boton{
+        padding: 0.8rem;
+        font-size: 1.1rem;
+    }
 }

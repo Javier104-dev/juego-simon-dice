@@ -116,3 +116,12 @@ function perdiste(){
     reiniciarEstado();
     actualizarEstado("Perdiste! presiona el boton para volver a empezar", true);
 };
+
+
+
+function pr(){
+    
+    return console.log("fsdfs")
+}
+
+pr()

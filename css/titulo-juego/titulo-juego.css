@@ -3,3 +3,16 @@
     text-align: center;
     padding: 2rem 0;
 }
+
+@media screen and (max-width: 1024px){
+    .titulo__juego{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .titulo__juego{
+       color: #fdfdfd;
+       font-weight: 700;
+    }
+}

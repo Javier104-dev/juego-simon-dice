@@ -6,3 +6,33 @@
 body{
     background: #202629;
 }
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+
+
+/* @media screen and (max-width: 1024px){
+    .header{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+} */
