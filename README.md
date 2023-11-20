@@ -31,12 +31,13 @@ Para jugar.
 
 ### Requerimientos:
 - IDE - Visual Studio Code v1.84.2
+- Git v2.43.0
 
 ### Preparando el ambiente:
 - Descargar o clonar el repositorio.
 - Abrir `index.html` en el navegador.
 
-<h2 align='center'>Lo que Encontrarás</h2>
+<h2 align='center'>Lo que encontrarás</h2>
 
 ### Página principal
 <p align='left'>
