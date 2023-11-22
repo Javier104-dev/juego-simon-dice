@@ -8,7 +8,7 @@ El juego posee un contador de rondas, una sección para mostrar el estado del ju
 
 El proyecto tiene un diseño básico por que se enfoca en poner en práctica la manipulación del `DOM` mediante `JavaScript`, también el uso de clases `CSS` para mostrar los cambios en los elementos y el uso de `setTimeout`.
 
-### Especificaciones:
+### Especificaciones
 - Versión: 0.1.0
 - Diseño responsivo
 - Autor: Javier Anibal Villca
@@ -20,20 +20,20 @@ Para jugar.
 
 <h2 align='center'>Requisitos del proyecto</h2>
 
-### Requisitos:
+### Requisitos
 - Usar JavaScript, HTML Y CSS puro.
 - Usar el método  `setTimeout()`.
 
-### Opcionales:
+### Opcionales
 - Usar `Bootstrap` en lugar de CSS puro.
 
 <h2 align='center'>Instrucciones de instalación</h2>
 
-### Requerimientos:
+### Requerimientos
 - IDE - Visual Studio Code v1.84.2
 - Git v2.43.0
 
-### Preparando el ambiente:
+### Preparando el ambiente
 - Descargar o clonar el repositorio.
 - Abrir `index.html` en el navegador.
 
@@ -59,6 +59,6 @@ Para jugar.
 
 ---
 
-### Autor:
+### Autor
 | [<img src='https://avatars.githubusercontent.com/u/105408069?v=4' width=115><br><sub>Javier Anibal Villca</sub>](https://github.com/Javier104-dev) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------: |
